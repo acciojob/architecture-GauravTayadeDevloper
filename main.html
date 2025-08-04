@@ -1,16 +1,144 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Architecture Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d8dfd7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .wrapper {
+      width: 1100px;
+      background-color: #e0e5df;
+      padding: 20px;
+    }
+
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .imageContainer img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    td img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .column-left,
+    .column-right {
+      width: 200px;
+    }
+
+    .column-middle {
+      width: 600px;
+    }
+
+    .column-middle h3 {
+      text-align: center;
+      color: #222;
+      margin-top: 0;
+    }
+
+    .text-box {
+      color: #333;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="wrapper">
+    <!-- Top Image -->
+    <div class="imageContainer">
+      <img src="baac158f-2e8b-4cd6-8347-974f3d777b83.png" alt="Architecture Design Image">
+    </div>
 
+    <!-- Table with content -->
+    <table>
+      <!-- First Row -->
+      <tr>
+        <td class="column-left">
+          <img src="https://via.placeholder.com/200x200?text=Structure+1" alt="Image Left 1">
+        </td>
+        <td class="column-middle">
+          <div class="text-box">
+            <p><strong>Unit #5 - Floor Plans</strong><br>
+              A. Kitchen<br>
+              B. Bathroom<br>
+              C. Using "Slabs"<br>
+              D. Georgian Home<br>
+              E. Sketching Assignment #5
+            </p>
+          </div>
+        </td>
+        <td class="column-right">
+          <img src="https://via.placeholder.com/200x200?text=Spiral+1" alt="Image Right 1">
+        </td>
+      </tr>
+
+      <!-- Second Row -->
+      <tr>
+        <td class="column-left">
+          <img src="https://via.placeholder.com/200x200?text=Spiral+2" alt="Image Left 2">
+        </td>
+        <td class="column-middle">
+          <div class="text-box">
+            <h3>Objective</h3>
+            <p>
+              Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family’s needs.
+            </p>
+            <p>
+              <span class="highlight">HousePlans.com</span> The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.
+              <a href="#">learn more</a>
+            </p>
+          </div>
+        </td>
+        <td class="column-right">
+          <div class="text-box">
+            <img src="https://via.placeholder.com/200x200?text=Spiral+3" alt="Image Right 2">
+            <p>
+              <span class="highlight">Green Floor</span><br>
+              FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.
+              <br><a href="#">learn more</a>
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
-
 </html>
